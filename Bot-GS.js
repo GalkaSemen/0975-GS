@@ -9,7 +9,7 @@
     // @grant        none
     // ==/UserScript==
 
-    let keywords = ["Покупка автомобиля ", "купля-продажа авто", "Автомобиль с пробегом", "каталог автомобилей"];
+    let keywords = ["Покупка автомобиля ", "Купля-продажа авто", "Автомобиль с пробегом", "Каталог автомобилей"];
     let keyword = keywords[getRandom(0, keywords.length)];
     let btnK = document.getElementsByName("btnK")[0];
     let links = document.links;
